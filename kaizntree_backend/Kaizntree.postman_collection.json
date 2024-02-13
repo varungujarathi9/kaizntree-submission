@@ -32,12 +32,13 @@
 					]
 				},
 				"url": {
-					"raw": "3.130.248.167:8000/signup/",
+					"raw": "ec2-3-130-248-167.us-east-2.compute.amazonaws.com:8000/signup/",
 					"host": [
-						"3",
-						"130",
-						"248",
-						"167"
+						"ec2-3-130-248-167",
+						"us-east-2",
+						"compute",
+						"amazonaws",
+						"com"
 					],
 					"port": "8000",
 					"path": [
@@ -110,7 +111,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "3.130.248.167:8000/item/?name=Etsy",
+					"raw": "3.130.248.167:8000/item/",
 					"host": [
 						"3",
 						"130",
@@ -121,12 +122,6 @@
 					"path": [
 						"item",
 						""
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Etsy"
-						}
 					]
 				}
 			},
@@ -165,7 +160,7 @@
 						},
 						{
 							"key": "name",
-							"value": "NY Print Single Beeswax Wrap",
+							"value": "NY Print Single Beeswax Wrap  4",
 							"type": "text"
 						},
 						{
@@ -186,6 +181,46 @@
 						{
 							"key": "available_stock",
 							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "cost",
+							"value": "5.2",
+							"type": "text"
+						},
+						{
+							"key": "minimum_stock",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "desired_stock",
+							"value": "300",
+							"type": "text"
+						},
+						{
+							"key": "is_assembly",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "is_component",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "is_purchaseable",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "is_sellable",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "is_bundle",
+							"value": "true",
 							"type": "text"
 						}
 					]
